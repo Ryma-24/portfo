@@ -63,7 +63,7 @@ const MesProjets = () => {
               
             </TooltipTrigger>
           <TooltipContent className=" bg-gradient-to-r from-indigo-900 to-indigo-600 text-gray-200 bottom-0 translate-y-96 md:block hidden" >
-              <p className="font-mono w-96 " > Site E-commerce avec React, TypeScript et Next.js : Plateforme intégrant Stripe pour des paiements sécurisés, offrant des composants réactifs et une optimisation serveur avancée.</p>
+              <p className="font-mono w-96 " > Site E-commerce avec React, TypeScript et Next.js. Plateforme intégrant Stripe pour des paiements sécurisés, offrant des composants réactifs et une optimisation serveur avancée.</p>
           </TooltipContent>
          </Tooltip>
          </TooltipProvider>
@@ -93,7 +93,7 @@ const MesProjets = () => {
           
           </TooltipTrigger>
           <TooltipContent className="hidden md:block bg-gradient-to-r from-pink-300 to-stone-300 text-gray-900 bottom-0 translate-y-80 " >
-              <p className="font-mono w-96 " > Tableau de Bord E-commerce avec React et Next.js : Interface d'administration optimisée, avec un back-end conçu en Next.js pour une gestion efficace et performante.</p>
+              <p className="font-mono w-96 " > Tableau de Bord E-commerce avec React et Next.js Interface d'administration optimisée, avec un back-end conçu en Next.js pour une gestion efficace et performante.</p>
           </TooltipContent>
          </Tooltip>
          </TooltipProvider>
@@ -103,7 +103,7 @@ const MesProjets = () => {
 
     
     <p className="text-white flex flex-col items-center justify-center font-mono h-full w-80  md:w-full text-center text-xs md:text-center mt-4 md:hidden">
-    Tableau de Bord E-commerce avec React et Next.js : Interface d'administration optimisée, avec un back-end conçu en Next.js pour une gestion efficace et performante.
+    Tableau de Bord E-commerce avec React et Next.js Interface d'administration optimisée, avec un back-end conçu en Next.js pour une gestion efficace et performante.
   </p>
    
 
@@ -119,7 +119,7 @@ const MesProjets = () => {
             
           </TooltipTrigger>
           <TooltipContent className="hidden md:block bg-gradient-to-r from-pink-300 to-stone-300 text-gray-900 bottom-0 translate-y-80 ease-out" >
-              <p className="font-mono w-96 " > Page Web avec Formulaire dynamique - React et Next.js pour un traitement efficace des données, offrant ainsi une intégration transparente et une performance accrue.</p>
+              <p className="font-mono w-96 " > Page Web avec Formulaire dynamique, React et Next.js pour un traitement efficace des données, offrant ainsi une intégration transparente et une performance accrue.</p>
           </TooltipContent>
          </Tooltip>
          </TooltipProvider>
@@ -128,7 +128,7 @@ const MesProjets = () => {
     </ScrollArea> 
 
     <p className="text-white flex flex-col items-center justify-center font-mono h-full w-80  md:w-full text-center text-xs md:text-center md:hidden">
-    Page Web avec Formulaire dynamique - React et Next.js pour un traitement efficace des données, offrant ainsi une intégration transparente et une performance accrue.
+    Page Web avec Formulaire dynamique, React et Next.js pour un traitement efficace des données, offrant ainsi une intégration transparente et une performance accrue.
   </p>
     
  
