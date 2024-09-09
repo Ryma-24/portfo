@@ -121,13 +121,13 @@ const MesProjets = () => {
 
     <ScrollArea className=" w-72 h-80 md:h-80 md:w-5/12 rounded-md border
     xl:h-[400px]">
-       <Card className="w-72 md:h-auto md:w-auto bg-neutral-950 bg-[radial-gradient(ellipse_50%_90%_at_50%_-30%,rgba(120,119,198,0.3),rgba(255,255,255,0))] ">
+       <Card className="w-60 md:h-auto md:w-auto bg-neutral-950 bg-[radial-gradient(ellipse_50%_90%_at_50%_-30%,rgba(120,119,198,0.3),rgba(255,255,255,0))] ">
         <CardContent>
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
           
-          <Image src="/images/dialog.jpeg" alt="" width={250} height={100} className="absolute right-0 w-full h-full object-cover md:block md:h-auto md:w-full md:relative"  />
+          <Image src="/images/dialog.jpeg" alt="" width={250} height={100} className="absolute right-0 w-full h-full md:block md:h-auto md:w-full md:relative"  />
             
           </TooltipTrigger>
           <TooltipContent className="hidden md:block bg-gradient-to-r from-pink-300 to-stone-300 text-gray-900 bottom-0 translate-y-80 ease-out" >

@@ -42,7 +42,7 @@ const Experiences = () => {
              Python.
             </p>
 
-            <div className="w-2 h-32 border-l my--8 ml-2 bg-yellow-400">
+            <div className="w-2 h-32 border-l my--8 ml-2 bg-blue-700">
             </div>
           </CardContent>
       </Card>
@@ -74,7 +74,7 @@ const Experiences = () => {
             j&apos;apprécie le front-end que le back-end.
             </p>
 
-            <div className=" mr-1 w-3 h-32 mt-1.5 ml-6 border-l bg-red-700">
+            <div className=" mr-1 w-3 h-32 mt-1.5 ml-6 border-l bg-white">
             </div>
             </CardContent>
       </Card>
@@ -104,10 +104,10 @@ const Experiences = () => {
           md:pb-0 md:mx-3 
           xl:text-xl">
         Développement d&apos;applications mobiles avec React Native,sur iOS et Android,
-         un domaine qui offre des d&apos;innovation et d&apos;expérience utilisateur.
+         un domaine d&apos;innovation et d&apos;expérience utilisateur.
           </p>
 
-          <div className=" mr-1 w-3 h-32 mt-1.5 ml-6 border-l bg-sky-600">
+          <div className=" mr-1 w-3 h-32 mt-1.5 ml-6 border-l bg-red-700">
             </div>
           </CardContent>    
       </Card>
