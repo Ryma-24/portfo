@@ -45,7 +45,9 @@ const Header:React.FC = () => {
       
     
         <div className='flex flex-col'>
-        <div  className="hidden text-white md:flex md:px-10 md:text-6xl md:w-96 md:absolute md:h-44 md:inset-1 py-24 font-macondo duration-1000" style={{opacity: textOpacity }} >
+        <div  className="hidden text-white md:flex md:px-10 md:text-6xl md:w-96 md:absolute md:h-44 md:inset-1 py-24 font-macondo duration-1000
+        xl:text-7xl
+        " style={{opacity: textOpacity }} >
            <TypewriterText />
       </div>
      
@@ -92,7 +94,7 @@ const Header:React.FC = () => {
       absolute flex w-16 left-12 ml-4 text-xs 
       md:absolute md:left-96  md:top-9 md:ml-28 md:my-44
       lg:absolute lg:left-auto lg:right-96  
-      xl:absolute xl:left-auto xl:right-auto xl:py-20 xl:-mr-28  ' 
+      xl:absolute xl:left-auto xl:right-auto xl:py-20 xl:-mr-44 xl:w-32 ' 
       style={{opacity: textOpacity}}
       >
      <TypewriterText/>

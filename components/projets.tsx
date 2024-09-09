@@ -25,11 +25,15 @@ const MesProjets = () => {
       </h1>
 
     
-      <div className=" flex flex-col items-center justify-center mt-24 h-full space-y-10 md:space-y-0 auto md:mt-auto md:flex md:flex-row md:items-center md:space-x-5 md:justify-center md:w-screen md:h-full md:text-white md:overflow-auto">
+      <div className=" flex flex-col items-center justify-center mt-24 h-full space-y-10 
+      md:space-y-0 auto md:mt-auto md:flex md:flex-row md:items-center md:space-x-5 md:justify-center md:w-screen md:h-full md:text-white md:overflow-auto
+      xl:mt-16">
     
 
-    <ScrollArea className="  w-72 h-80 sm:w-auto md:h-80 md:w-5/12 rounded-md border">
-       <Card className=" w-80 h-96 md:h-auto md:w-auto bg-neutral-950 bg-[radial-gradient(ellipse_50%_90%_at_50%_-30%,rgba(120,119,198,0.3),rgba(255,255,255,0))] ">  
+    <ScrollArea className="  w-72 h-80 sm:w-auto md:h-80 md:w-5/12 rounded-md border
+    xl:h-[400px]">
+       <Card className=" w-80 h-96 md:h-auto md:w-auto bg-neutral-950 bg-[radial-gradient(ellipse_50%_90%_at_50%_-30%,rgba(120,119,198,0.3),rgba(255,255,255,0))]
+       xl:h-auto ">  
         
         <CardContent>
         <TooltipProvider>
@@ -52,14 +56,17 @@ const MesProjets = () => {
   </p>
     
     
-    <ScrollArea className=" w-72 h-80 md:h-80 md:w-5/12 rounded-md border">
-       <Card className="w-80 h-96 md:h-auto md:w-auto bg-neutral-950 bg-[radial-gradient(ellipse_50%_90%_at_50%_-30%,rgba(120,119,198,0.3),rgba(255,255,255,0))] ">
+    <ScrollArea className=" w-72 h-80 md:h-80 md:w-5/12 rounded-md border
+    xl:h-[400px]">
+       <Card className="w-80 h-96 md:w-auto bg-neutral-950 bg-[radial-gradient(ellipse_50%_90%_at_50%_-30%,rgba(120,119,198,0.3),rgba(255,255,255,0))]
+        md:h-auto
+        ">
         <CardContent>
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
               
-         <Image src="/images/sitespace.jpeg" alt="" width={300} height={100} className="absolute right-0 w-full h-full object-cover md:block md:h-auto md:w-full md:relative"  />
+         <Image src="/images/Sitespace.jpeg" alt="" width={300} height={100} className="absolute right-0 w-full h-full object-cover md:block md:h-auto md:w-full md:relative"  />
               
             </TooltipTrigger>
           <TooltipContent className=" bg-gradient-to-r from-indigo-900 to-indigo-600 text-gray-200 bottom-0 translate-y-96 md:block hidden" >
@@ -79,10 +86,13 @@ const MesProjets = () => {
 
 
 
-     <div className=" flex flex-col items-center justify-center mt-10 h-full space-y-10 md:space-y-0 auto md:-mt-24 md:flex md:flex-row md:items-center md:space-x-5 md:justify-center md:w-screen md:h-screen  md:text-white md:overflow-auto">
+     <div className=" flex flex-col items-center justify-center mt-10 h-full space-y-1
+      md:space-y-0 auto md:-mt-24 md:flex md:flex-row md:items-center md:space-x-5 md:justify-center md:w-screen md:h-screen  md:text-white md:overflow-auto
+      xl:mb-5">
 
 
-     <ScrollArea className=" w-72 h-80 md:h-80 md:w-5/12 rounded-md border">
+     <ScrollArea className=" w-72 h-80 md:h-80 md:w-5/12 rounded-md border 
+     xl:h-[400px]">
      <Card className="w-60 md:h-auto md:w-auto bg-neutral-950 bg-[radial-gradient(ellipse_50%_90%_at_50%_-30%,rgba(120,119,198,0.3),rgba(255,255,255,0))] ">
         <CardContent>
         <TooltipProvider>
@@ -108,7 +118,8 @@ const MesProjets = () => {
    
 
 
-    <ScrollArea className=" w-72 h-80 md:h-80 md:w-5/12 rounded-md border">
+    <ScrollArea className=" w-72 h-80 md:h-80 md:w-5/12 rounded-md border
+    xl:h-[400px]">
        <Card className="w-72 md:h-auto md:w-auto bg-neutral-950 bg-[radial-gradient(ellipse_50%_90%_at_50%_-30%,rgba(120,119,198,0.3),rgba(255,255,255,0))] ">
         <CardContent>
         <TooltipProvider>
