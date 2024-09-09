@@ -43,7 +43,7 @@ const MesProjets = () => {
          <img src="/images/siteconv.jpeg" alt="" className="relative block right-4 w-96  md:block md:h-auto md:right-auto md:w-full md:relative"/>
             </TooltipTrigger>
             <TooltipContent className="bg-gradient-to-r from-slate-300 to-slate-500 text-gray-900 bottom-0 translate-y-96 " >
-              <p className="font-mono w-96 " > Conçu en React et TypeScript, ce site web allie design moderne et fonctionnalités interactives, offrant une plateforme robuste et facilement maintenable.</p>
+              <p className="font-mono w-96 " > React et TypeScript, ce site web allie design moderne et fonctionnalités interactives, offrant une plateforme robuste et facilement maintenable.</p>
             </TooltipContent>
          </Tooltip>
          </TooltipProvider>
