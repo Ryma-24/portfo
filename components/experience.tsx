@@ -1,19 +1,13 @@
 "use client"
 
 import { LaptopMinimal } from "lucide-react"
-import Head from "next/head"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 
 
 const Experiences = () => {
   return(
  <>
-    <Head>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    </link>
-    </Head>
-
-
+    
     <h1 className=" relative flex items-center justify-center text-center h-24 rounded-md text-3xl border text-red-900
      md:border-none md:relative md:top-16 md:flex md:items-center md:font-mono md:uppercase md:underline md:justify-start md:left-10 md:-tracking-tighter md:text-5xl md:text-white hover:text-red-500 hover:drop-shadow-2xl
      
@@ -24,7 +18,7 @@ const Experiences = () => {
         <CardHeader>
           <CardTitle className="flex">
             <LaptopMinimal style={{}} size={60} />
-              <p className=" ml-3 pb-4 h-4 md:pb-0 md:mb-0 md:ml-5 md:h-auto md:mt-2" style={{fontFamily: 'Roboto, sans-serif'}}>
+              <p className=" ml-3 pb-4 h-4 md:pb-0 md:mb-0 md:ml-5 md:h-auto md:mt-2 " style={{fontFamily: 'Roboto, sans-serif'}}>
               Software devlopement
               </p>
              </CardTitle>
@@ -57,7 +51,7 @@ const Experiences = () => {
           
             <p className="  mx-1 md:pb-0 md:mx-3 font-serif">
             Attiré par le développement web en HTML, CSS, JavaScript, React et NextJS,
-            j'apprécie le front-end que le back-end.
+            j&aposapprécie le front-end que le back-end.
             </p>
 
             <div className=" mr-1 w-3 h-32 mt-1.5 ml-6 border-l bg-red-700">
@@ -81,7 +75,7 @@ const Experiences = () => {
           
           <p className="  mx-1 md:pb-0 md:mx-3 font-serif">
           Attiré par le développement web en HTML, CSS, JavaScript, React et NextJS,
-          j'apprécie le front-end que le back-end.
+          j&aposapprécie le front-end que le back-end.
           </p>
 
           <div className=" mr-1 w-3 h-32 mt-1.5 ml-6 border-l bg-sky-600">

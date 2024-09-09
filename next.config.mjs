@@ -3,7 +3,10 @@
 
 
 const nextConfig = {
-  output: 'export',
+  output: 'export', // pour générer un site statique
+  images: {
+    unoptimized: true, // désactive l'optimisation des images
+  },
  
 };
 

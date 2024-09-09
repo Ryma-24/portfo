@@ -9,7 +9,7 @@ const TypewriterText = () => {
     words: ['Je suis Aymar Mompere developeur',
       "Alors c'est parti !!",
        ' Il etait une fois un pirate...',
-        "Non ce n'est pas ça" ],
+        "Non je recommence" ],
     loop:true,
     typeSpeed:110,
     deleteSpeed: 40

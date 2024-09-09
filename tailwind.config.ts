@@ -25,6 +25,10 @@ const config = {
         'xl': '1280px',
         '2xl':  '1536px'
       },
+      fontFamily: {
+        macondo:['Macondo', 'cursive'],
+        roboto:['Roboto', 'sans-serif']
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

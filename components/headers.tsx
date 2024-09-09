@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import { LucideArrowBigDownDash } from 'lucide-react'
-import Head from "next/head"
 import { useEffect, useState } from "react"
 import TypewriterText from './typewriter'
 
@@ -38,22 +37,15 @@ const Header:React.FC = () => {
   return ( 
 
     <>
-    <Head>
-    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    </link>
-    </Head>
-
        
        <div className="flex  flex-col items-center justify-center
        md:flex md:flex-row md:items-center md:justify-center md:h-screen
        lg:flex lg:flex-row lg:items-center lg:justify-center lg:h-screen
        ">
       
-      
-
-     
+    
         <div className='flex flex-col'>
-        <div  className="hidden text-white md:flex md:px-10 md:text-6xl md:w-96 md:absolute md:h-44 md:inset-1 py-24 " style={{fontFamily: 'Macondo, cursive', opacity: textOpacity}} >
+        <div  className="hidden text-white md:flex md:px-10 md:text-6xl md:w-96 md:absolute md:h-44 md:inset-1 py-24 font-macondo " style={{opacity: textOpacity}} >
            <TypewriterText />
       </div>
      
