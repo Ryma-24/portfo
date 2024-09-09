@@ -86,9 +86,10 @@ const MesProjets = () => {
 
 
 
-     <div className=" flex flex-col items-center justify-center mt-10 h-full space-y-1
+     <div className=" flex flex-col items-center justify-center mt-10 h-full space-y-10
       md:space-y-0 auto md:-mt-24 md:flex md:flex-row md:items-center md:space-x-5 md:justify-center md:w-screen md:h-screen  md:text-white md:overflow-auto
-      xl:mb-5">
+      xl:mb-5
+">
 
 
      <ScrollArea className=" w-72 h-80 md:h-80 md:w-5/12 rounded-md border 

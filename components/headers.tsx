@@ -65,7 +65,7 @@ const Header:React.FC = () => {
         <LucideArrowBigDownDash
         
      
-            style={{ color:'red',cursor:'pointer' , opacity:textOpacity,transitionDuration:'20s' }} size={64} />
+            style={{ color:'red', opacity:textOpacity,transitionDuration:'20s' }} size={64} />
         </motion.div>  
       </div>
         </div>
