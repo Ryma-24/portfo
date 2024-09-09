@@ -93,7 +93,7 @@ const MesProjets = () => {
           
           </TooltipTrigger>
           <TooltipContent className="hidden md:block bg-gradient-to-r from-pink-300 to-stone-300 text-gray-900 bottom-0 translate-y-80 " >
-              <p className="font-mono w-96 " > Tableau de Bord E-commerce avec React et Next.js Interface d'administration optimisée, avec un back-end conçu en Next.js pour une gestion efficace et performante.</p>
+              <p className="font-mono w-96 " > Tableau de Bord E-commerce avec React et Next.js Interface d&apos;administration optimisée, avec un back-end conçu en Next.js pour une gestion efficace et performante.</p>
           </TooltipContent>
          </Tooltip>
          </TooltipProvider>
@@ -103,7 +103,7 @@ const MesProjets = () => {
 
     
     <p className="text-white flex flex-col items-center justify-center font-mono h-full w-80  md:w-full text-center text-xs md:text-center mt-4 md:hidden">
-    Tableau de Bord E-commerce avec React et Next.js Interface d'administration optimisée, avec un back-end conçu en Next.js pour une gestion efficace et performante.
+    Tableau de Bord E-commerce avec React et Next.js Interface d&apos;administration optimisée, avec un back-end conçu en Next.js pour une gestion efficace et performante.
   </p>
    
 

@@ -45,7 +45,7 @@ const Header:React.FC = () => {
       
     
         <div className='flex flex-col'>
-        <div  className="hidden text-white md:flex md:px-10 md:text-6xl md:w-96 md:absolute md:h-44 md:inset-1 py-24 font-macondo " style={{opacity: textOpacity}} >
+        <div  className="hidden text-white md:flex md:px-10 md:text-6xl md:w-96 md:absolute md:h-44 md:inset-1 py-24 font-macondo duration-1000" style={{opacity: textOpacity }} >
            <TypewriterText />
       </div>
      
@@ -58,8 +58,10 @@ const Header:React.FC = () => {
                  initial={  {y: 0}}
                  animate={{y:[0, -30,0,-50,0,-50, 0, -50,0,-50,-0]}}
                  transition={{duration:5 , loop:Infinity, ease:"easeInOut", repeat:1000}}>
-
+       
+       
         <LucideArrowBigDownDash
+        
      
             style={{ color:'red',cursor:'pointer' , opacity:textOpacity,transitionDuration:'20s' }} size={64} />
         </motion.div>  
@@ -77,15 +79,16 @@ const Header:React.FC = () => {
       lg:absolute lg:left-60 lg:w-full lg:h-auto'
       src="/images/codeur.webp"
       alt="Codeur"
-      initial={{x: -300, opacity:4}}
+      initial={{x: 90, opacity:4}}
       animate={{x: -35, opacity:4}}
-      transition={{duration:7}}
+      transition={{duration:3}}
       style={{width:'', height: ''}}
       />
       </div>
 
 
       <div className='
+      duration-1000 
       absolute flex w-16 left-12 ml-4 text-xs 
       md:absolute md:left-96  md:top-9 md:ml-28 md:my-44
       lg:absolute lg:left-auto lg:right-96  

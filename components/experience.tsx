@@ -51,7 +51,7 @@ const Experiences = () => {
           
             <p className="  mx-1 md:pb-0 md:mx-3 font-serif">
             Attiré par le développement web en HTML, CSS, JavaScript, React et NextJS,
-            j&aposapprécie le front-end que le back-end.
+            j&apos;apprécie le front-end que le back-end.
             </p>
 
             <div className=" mr-1 w-3 h-32 mt-1.5 ml-6 border-l bg-red-700">
@@ -75,7 +75,7 @@ const Experiences = () => {
           
           <p className="  mx-1 md:pb-0 md:mx-3 font-serif">
           Attiré par le développement web en HTML, CSS, JavaScript, React et NextJS,
-          j&aposapprécie le front-end que le back-end.
+          j&apos;apprécie le front-end que le back-end.
           </p>
 
           <div className=" mr-1 w-3 h-32 mt-1.5 ml-6 border-l bg-sky-600">
