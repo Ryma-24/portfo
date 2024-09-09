@@ -60,7 +60,7 @@ const Experiences = () => {
              xl:text-3xl
              " style={{fontFamily: 'Roboto, sans-serif'}}>
             fullstack dev.
-            React, NextJS
+            React, Next.js
             </p>
           </CardTitle>
           </CardHeader>
@@ -92,7 +92,7 @@ const Experiences = () => {
              xl:text-3xl
             
             " style={{fontFamily: 'Roboto, sans-serif'}}>
-              React native dev. <br />
+              React native <br />
               Android, ios
             </p>
           </CardTitle>
@@ -100,14 +100,14 @@ const Experiences = () => {
           
           <CardContent className="flex" >
           
-          <p className="  mx-1 font-serif 
+          <p className="   font-serif 
           md:pb-0 md:mx-3 
           xl:text-xl">
         Développement d&apos;applications mobiles avec React Native,sur iOS et Android,
          un domaine d&apos;innovation et d&apos;expérience utilisateur.
           </p>
 
-          <div className=" mr-1 w-3 h-32 mt-1.5 ml-6 border-l bg-red-700">
+          <div className=" mr-1 w-3 h-32 mt-1.5 ml-6 border-l bg-red-800">
             </div>
           </CardContent>    
       </Card>
