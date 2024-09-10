@@ -92,7 +92,7 @@ const Header:React.FC = () => {
       <div className='
       duration-1000 
       absolute flex w-16 left-12 ml-4 text-xs 
-      md:absolute md:left-96  md:top-9 md:ml-28 md:my-44
+      md:absolute md:left-96  md:top-9 md:ml-28 md:my-44 
       lg:absolute lg:left-auto lg:right-72  
       xl:absolute xl:left-auto xl:right-auto xl:py-20 xl:-mr-44 xl:w-32 ' 
       style={{opacity: textOpacity}}
